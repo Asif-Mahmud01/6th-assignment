@@ -63,6 +63,78 @@
 </header>
 <!---------header ends here------->
 
+
+
+    <!---------main start here------->
+    <main class="py-5 h-full pb-8">
+        <section class="sm:w-1/2 mx-auto flex flex-col gap-5">
+            <!-- question 1  -->
+            <div tabindex="0" class="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box">
+                <div class="collapse-title text-xl font-medium">
+                    <h1>Difference between var let and const</h1>
+                </div>
+                <div class="collapse-content">
+                    <p><b>var: </b> hoisted (always declared at top of scope, global if none) - function scope</p>
+                    <p><b>let: </b> block scope - not redeclarable </p>
+                    <p><b>const:</b> block scope - not reassignable - not redeclarable </p>
+                </div>
+            </div>
+            <!-- question 2 -->
+            <div tabindex="0" class="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box">
+                <div class="collapse-title text-xl font-medium">
+                    <h1> Difference between arrow function and normal function.</h1>
+                </div>
+                <div class="collapse-content">
+                    <p> Unlike regular functions, arrow functions do not have their own this . The value of this inside
+                        an arrow function remains the same throughout the lifecycle of the function and is always bound
+                        to the value of this in the closest non-arrow parent function.</p>
+                </div>
+            </div>
+            <!-- question 3 -->
+            <div tabindex="0" class="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box">
+                <div class="collapse-title text-xl font-medium">
+                    <h1>Difference between foreach map, filter and find.</h1>
+                </div>
+                <div class="collapse-content">
+                    <p>The main difference between forEach and filter is that forEach just loop over the array and
+                        executes the callback but filter executes the callback and check its return value. If the value
+                        is true element remains in the resulting array but if the return value is false the element will
+                        be removed for the resulting array.</p> <br>
+                    <p>The filter() method is used to filters all the elements and returns the element that matches and
+                        the element that do not match are removed. The only difference is the filter() method search
+                        through all the elements while find() method search through all the child elements only.</p>
+                </div>
+            </div>
+            <!-- question 4 -->
+            <div tabindex="0" class="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box">
+                <div class="collapse-title text-xl font-medium">
+                    why we use template string in javascript?
+                </div>
+                <div class="collapse-content">
+                    <p>Template strings are a powerful feature of modern JavaScript released in ES6. It lets us
+                        insert/interpolate variables and expressions into strings without needing to concatenate like in
+                        older versions of JavaScript. It allows us to create strings that are complex and contain
+                        dynamic elements</p>
+                </div>
+            </div>
+
+
+
+        </section>
+
+    </main>
+    <!---------main ends here------->
+
+
+    <!---footer start here----->
+    <footer class="text-center  py-16 mt-14">
+        <p title="If you want to know more about programming hero please click programming-hero"
+            class="text-gray-500 font-bold">Copyright 2022 News Portal By <span
+                title="click me and visit programming-hero details" class="text-red-700 italic"><a
+                    href="https://web.programming-hero.com/">Programming-hero</a></span> student.</p>
+    </footer>
+    <!----footer ends here----->
+
     <script src="js/app.js"></script>
 </body>
 
